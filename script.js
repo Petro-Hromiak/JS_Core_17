@@ -33,7 +33,7 @@ $(document).ready(function () {
             }
         }
         if (check) {
-            youLose()
+            checkDisabled()
             $(`.popup__text`).text(`Woohoo, well done, you did it!`)
             timerNum = saveNum
         }
